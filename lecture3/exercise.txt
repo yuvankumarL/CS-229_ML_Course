@@ -1,0 +1,5 @@
+
+1.check why,
+    if τ is very high you end up over-smoothing the data
+    if τ is too thin you end up very jagged fit to the data.
+

@@ -1,0 +1,19 @@
+
+1. do not use linear regression for classification.
+
+2. Batch Gradient Ascent is an optimization algorithm used to maximize an objective function (usually a log-likelihood).
+It is the opposite of batch gradient descent, which minimizes a loss function.
+
+3. Difference b/w gradient Ascent and gradient descent
+    gradient Ascent:
+        the step will climb up
+        it maximizes the function
+        use case: Maximizing log-likelihood in Logistic Regression, Reinforcement Learning (policy optimization)
+    gradient descent:
+        the step will climb down
+        it minimizes the function
+        use case: Training models like Linear Regression, Neural Networks (minimizing error). 
+
+4. when the parameters are more than 10000 use gradient descent if it is less than go with newtons method
+
+    
